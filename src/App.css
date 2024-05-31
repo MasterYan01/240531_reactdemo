@@ -1,0 +1,54 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-footer {
+  background: #1e3c72;
+}
+
+.App-banner .carousel-item {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-banner .carousel-item h2,
+.App-banner .carousel-item p,
+.App-banner .carousel-item button {
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 960px;
+}
+
+#about, #features, #testimonials {
+  text-align: left;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+blockquote-footer {
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .App-header .navbar-nav {
+    text-align: center;
+  }
+
+  .App-header .navbar-nav .nav-item {
+    margin: 0 10px;
+  }
+}
+
+
