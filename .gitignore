@@ -6,9 +6,13 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Build output
-dist/
+# Build output (general)
 build/
+
+# Ignore JavaScript and map files in dist directory, but keep HTML files
+dist/*.js
+dist/*.js.map
+!dist/*.html
 
 # Dependency directories
 jspm_packages/
